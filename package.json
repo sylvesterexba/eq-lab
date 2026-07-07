@@ -1,0 +1,16 @@
+{
+  "name": "eq-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier \"*.html\" \"*.md\" \"*.json\" \"*.js\" \"js/**/*.js\" --write",
+    "format:check": "prettier \"*.html\" \"*.md\" \"*.json\" \"*.js\" \"js/**/*.js\" --check"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0"
+  }
+}

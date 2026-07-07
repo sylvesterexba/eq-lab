@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive EQ Lab | 互動 EQ 實驗室</title>
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/components.css" />
+    <link rel="stylesheet" href="./css/detail.css" />
+    <link rel="stylesheet" href="./css/simulator.css" />
+    <link rel="stylesheet" href="./css/eq-trainer.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+  </head>
+  <body class="eq-lab-standalone">
+    <header class="eq-lab-page-header">
+      <div class="eq-lab-standalone-hero">
+        <h1 class="bilingual-title">
+          <span class="title-en">Interactive EQ Lab</span>
+          <span class="title-zh">互動 EQ 實驗室</span>
+        </h1>
+        <p>
+          Practice frequency, gain, Q, and filter type decisions in one interactive control surface.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section
+        class="academy-module academy-module--eq eq-trainer-placeholder"
+        id="module-eq-trainer"
+        aria-labelledby="moduleEqTitle"
+        data-module="eq-trainer"
+      >
+        <div class="eq-trainer-placeholder__panel">
+          <div class="eq-trainer-placeholder__content">
+            <h2 id="moduleEqTitle" class="eq-course-only">Interactive EQ Lab</h2>
+            <div class="eq-band-preview" id="eqBandPreview" aria-label="EQ band preview"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Interactive EQ Lab</p>
+    </footer>
+
+    <script type="module" src="./js/eqTrainer.js"></script>
+  </body>
+</html>

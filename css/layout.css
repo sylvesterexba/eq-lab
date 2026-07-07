@@ -1,0 +1,118 @@
+﻿/* layout.css：管理頁面骨架、主要區塊與清單容器，不包含元件細節。 */
+header {
+  padding: 32px 24px 16px;
+  text-align: center;
+  background: rgba(15, 23, 42, 0.95);
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+header h1 {
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+header p {
+  margin: 12px auto 0;
+  max-width: 700px;
+  color: #cbd5e1;
+}
+main {
+  padding: 24px;
+}
+.academy-modules {
+  max-width: 1080px;
+  margin: 0 auto 24px;
+}
+.academy-modules__header {
+  margin-bottom: 14px;
+}
+.academy-modules__header h2 {
+  margin: 8px 0 0;
+  color: #f8fafc;
+  font-size: clamp(1.6rem, 2.4vw, 2.25rem);
+}
+.academy-modules__header p {
+  margin: 8px 0 0;
+  max-width: 720px;
+  color: #cbd5e1;
+}
+.academy-module-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+.academy-module {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.module-heading {
+  max-width: 1080px;
+  margin: 0 auto 20px;
+  padding: 16px 18px;
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(30, 41, 59, 0.84));
+  box-shadow: inset 0 0 24px rgba(14, 165, 233, 0.06);
+}
+.module-kicker {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  border: 1px solid rgba(125, 211, 252, 0.32);
+  border-radius: 999px;
+  padding: 3px 10px;
+  background: rgba(8, 47, 73, 0.46);
+  color: #7dd3fc;
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+.module-heading h2 {
+  margin: 8px 0 0;
+  color: #f8fafc;
+  font-size: clamp(1.45rem, 2vw, 2rem);
+}
+.module-heading p {
+  margin: 8px 0 0;
+  color: #cbd5e1;
+}
+.picker-toggle,
+.picker-backdrop {
+  display: none;
+}
+.control-panel {
+  display: grid;
+  max-width: 1080px;
+  margin: 0 auto 24px;
+  justify-items: center;
+}
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.25fr);
+  gap: 24px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.instrument-list {
+  background: rgba(15, 23, 42, 0.95);
+  border-radius: 24px;
+  padding: 20px;
+  border: 1px solid rgba(148, 163, 184, 0.12);
+}
+.instrument-list h2 {
+  margin-top: 0;
+}
+
+/* Footer 留在 layout，保持頁面外框與內容模組分離。 */
+footer {
+  margin: 32px auto 0;
+  max-width: 1080px;
+  padding: 16px 24px;
+  text-align: center;
+  color: #94a3b8;
+}
