@@ -20,7 +20,7 @@ Placeholder: screenshots will be added before the public release.
 
 ## Demo
 
-Placeholder: https://YOUR_USERNAME.github.io/eq-lab/
+Placeholder: https://sylvesterexba.github.io/eq-lab/
 
 ## Technology
 
