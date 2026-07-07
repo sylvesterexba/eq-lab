@@ -1,6 +1,7 @@
 {
   "name": "eq-lab",
   "version": "1.0.0",
+  "description": "Interactive EQ Lab",
   "private": true,
   "type": "module",
   "scripts": {
